@@ -1,1 +1,11 @@
-# sistema_vendas
+# Sistema de Vendas
+
+## Aprendizado
+
+##Tecnologias : 
+
+### Backend : Java
+### Front : Angular
+### Framework Spring
+### RestApi
+
