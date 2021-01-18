@@ -1,11 +1,26 @@
 # Sistema de Vendas
 
-## Aprendizado
+![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
-##Tecnologias : 
 
-### Backend : Java
-### Front : Angular
-### Framework Spring
-### RestApi
+## Finalidade: *Aprendizado*
+
+[========]
+
+# Tecnologias
+
+###### Java
+###### Angular
+###### Framework Spring
+###### Rest
+
+
+
+------------
+
+
+
+*_rodrigo_eduque*
+
+------------
 
