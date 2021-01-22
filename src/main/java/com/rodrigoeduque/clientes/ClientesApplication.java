@@ -16,7 +16,7 @@ public class ClientesApplication {
         return args -> {
             Cliente cliente = new Cliente().builder().cpf("07443573650").nome("Rodrigo Eustáquio Duque").build();
             repository.save(cliente);
-            Cliente cliente1 = new Cliente().builder().cpf("01234567812").nome("Ana Camila Mendonça Duque").build();
+            Cliente cliente1 = new Cliente().builder().cpf("81314277065").nome("Ana Camila Mendonça Duque").build();
             repository.save(cliente1);
         };
     }
