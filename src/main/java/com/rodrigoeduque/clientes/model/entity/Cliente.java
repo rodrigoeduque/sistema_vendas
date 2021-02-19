@@ -1,10 +1,14 @@
 package com.rodrigoeduque.clientes.model.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.rodrigoeduque.clientes.rest.exception.ApiErrors;
 import lombok.*;
 import org.hibernate.validator.constraints.br.CPF;
+import org.springframework.transaction.annotation.Propagation;
 
 import javax.persistence.*;
+import javax.transaction.Transactional;
+import javax.validation.Valid;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
