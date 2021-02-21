@@ -1,6 +1,8 @@
 package com.rodrigoeduque.clientes.model.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -11,6 +13,7 @@ import java.time.LocalDate;
 @Entity
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
 public class ServicoPrestado {
 
     @Id
@@ -18,7 +21,7 @@ public class ServicoPrestado {
     private Integer id;
 
     @Column(nullable = false,length = 150)
-    private String Descricao;
+    private String descricao;
 
     @ManyToOne
     @JoinColumn(name = "id_cliente")

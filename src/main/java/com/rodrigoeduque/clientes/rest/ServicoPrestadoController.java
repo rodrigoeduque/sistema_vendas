@@ -7,6 +7,7 @@ import com.rodrigoeduque.clientes.model.repository.ClienteRepository;
 import com.rodrigoeduque.clientes.model.repository.ServicoPrestadoRepository;
 import com.rodrigoeduque.clientes.rest.dto.ServicoPrestadoDTO;
 import com.rodrigoeduque.clientes.util.BigDecimalConverter;
+import lombok.Builder;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
